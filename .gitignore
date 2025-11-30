@@ -1,0 +1,107 @@
+# -----------------------------
+# .gitignore - Next.js / Node / pnpm / TypeScript template
+# -----------------------------
+# Keep a copy of this file in your repo to avoid checking in OS, IDE, cache, and build artifacts
+# If you want to commit a sample env file, add an explicit exception such as `!.env.example`.
+
+### Node.js
+node_modules/
+
+### Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### Runtime data
+pids/
+*.pid
+*.seed
+
+### Dependency directories for monorepos
+**/node_modules/
+**/.yarn/
+
+### Next.js
+.next/
+.next/cache/
+out/
+build/
+dist/
+.vercel/
+.vercel_build_output/
+
+### Next / Standalone serverless artifacts
+.next/standalone/
+.now/
+
+### Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+### Editor directories and files
+.vscode/
+.idea/
+*.sublime-*
+
+### MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Windows
+Thumbs.db
+ehthumbs.db
+
+### Linux
+*~
+
+### TypeScript
+**/*.tsbuildinfo
+
+### Bundler/Cache/Reports
+.cache/
+.parcel-cache/
+.next/cache/
+dist-cache/
+.turbo/
+.pnpm-store/
+
+### Coverage reports
+coverage/
+.nyc_output/
+
+### Jest
+jest/coverage/
+
+### Storybook
+storybook-static/
+
+### Docker
+# .env files, secrets, and build artifacts
+Dockerfile.*.local
+*.dockerignore
+
+### SSL & certificates
+*.pem
+*.key
+
+### OS and Editor swap files
+*.swp
+*.swo
+*.tmp
+
+### Misc
+*.tgz
+*.log
+/.envrc
+
+# Optional: IDE and build artefacts you choose to track can be whitelisted.
+# Example: keep a workspace file committed
+# !/.vscode/settings.json
+
+# End of file
